@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="imsunny37.smarthomesecurity.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/topBar"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/storage_back_image" />
+
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomBar"
+            android:layout_below="@+id/topBar"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="Welcome to use the Cloud Service"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView9"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="More Functions, Protect Your Home and Family!" />
+
+            <Button
+                android:id="@+id/streamer"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/home_btn_hover"
+                android:text="Upgrade Streamer"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/btn_gallery"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="52dp"
+                android:background="@drawable/ic_collections" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/btn_gallery"
+                android:layout_below="@+id/btn_gallery"
+                android:layout_marginTop="14dp"
+                android:text="Gallery"
+                android:layout_marginLeft="15dp"/>
+
+            <Button
+                android:id="@+id/btn_videos"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="63dp"
+                android:background="@drawable/ic_switch_video"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView15"
+                android:layout_alignStart="@+id/btn_videos"
+                android:text="Videos"
+                android:layout_marginLeft="15dp"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

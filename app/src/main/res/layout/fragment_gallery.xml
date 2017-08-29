@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="imsunny37.smarthomesecurity.MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/storage_back_image" />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomBar"
+            android:layout_below="@+id/topBar"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="Welcome to use the Cloud Service"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView9"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="More Functions, Protect Your Home and Family!" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/main_home_back">
+
+            <Button
+                android:id="@+id/btn_gallery"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="108dp"
+                android:background="@drawable/images_button_hover"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/btn_gallery"
+                android:layout_below="@+id/btn_gallery"
+                android:layout_marginTop="14dp"
+                android:text="Gallery"
+                android:layout_alignEnd="@+id/btn_gallery" />
+
+            <Button
+                android:id="@+id/btn_videos"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/video_button_hover"
+                android:textColor="@color/bianco"
+                android:layout_marginStart="76dp"
+                android:layout_alignBottom="@+id/btn_gallery"
+                android:layout_toEndOf="@+id/btn_gallery"
+                android:layout_alignTop="@+id/btn_gallery" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView15"
+                android:layout_alignStart="@+id/btn_videos"
+                android:text="Videos"/>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

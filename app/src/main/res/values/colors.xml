@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3fa7df</color>
+    <color name="colorPrimaryDark">#2d8bbe</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="home_button_color">#869a9b</color>
+    <color name="home_button_hover_color">#87b0b3</color>
+    <color name="bianco">#ffffff</color>
+    <color name="gallery_button">#1ca8ce</color>
+    <color name="gallery_btn_hover">#1d85a1</color>
+    <color name="message_button">#ed6c15</color>
+    <color name="message_button_hover">#c25810</color>
+    <color name="camera_button_color">#17ba87</color>
+    <color name="holo_black">#dcdfde</color>
+    <color name="floating_btns">#898989</color>
+    <color name="white">#ffffff</color>
+    <color name="half_white">#f1eadd</color>
+    <color name="main_home_back">#eaf1f5</color>
+    <color name="lightcolorPrimary">#75c6f2</color>
+
+</resources>

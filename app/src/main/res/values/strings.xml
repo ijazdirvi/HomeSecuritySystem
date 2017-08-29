@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SmartHomeSecurity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Gallery</string>
+    <string name="title_notifications">Messages</string>
+
+
+    <string-array name="Member_names">
+        <item>Pavan D</item>
+        <item>DayaSagar</item>
+        <item>Pavan B</item>
+        <item>Maddy</item>
+        <item>Pavan H</item>
+        <item>Nikhil</item>
+    </string-array>
+
+    <array name="profile_pics">
+        <item>@drawable/child1</item>
+        <item>@drawable/child2</item>
+        <item>@drawable/child3</item>
+        <item>@drawable/child4</item>
+        <item>@drawable/child5</item>
+        <item>@drawable/child6</item>
+    </array>
+
+    <string-array name="statues">
+        <item>Blogging</item>
+        <item>Available</item>
+        <item>Busy</item>
+        <item>In a meeting</item>
+        <item>At work</item>
+        <item>At gym</item>
+    </string-array>
+
+    <string-array name="contactType">
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Mobile</item>
+    </string-array>
+</resources>

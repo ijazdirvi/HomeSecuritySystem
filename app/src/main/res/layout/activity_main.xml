@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="imsunny37.smarthomesecurity.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topBar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/main_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:elevation="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                app:titleTextColor="@color/white"
+                app:titleMarginStart="10dp"
+                android:titleMarginStart="20dp"
+                >
+
+
+            </android.support.v7.widget.Toolbar>
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_below="@+id/topBar"
+            android:layout_above="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/content"
+            >
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/bottomBar"
+            android:layout_alignParentBottom="true">
+
+            <android.support.design.widget.BottomNavigationView
+                android:id="@+id/navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="?android:attr/windowBackground"
+                app:menu="@menu/navigation" />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

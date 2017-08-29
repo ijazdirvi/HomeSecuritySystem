@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="imsunny37.smarthomesecurity.MainActivity"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_home_back">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/homeback_image" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="20dp"
+            android:text="Configure your application to watch multiple cameras" />
+
+        <Button
+            android:id="@+id/home_config"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/home_btn_hover"
+            android:text="Configuration"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

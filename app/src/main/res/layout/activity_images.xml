@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:titleTextColor="@color/white"
+        app:titleMarginStart="10dp"
+        android:titleMarginStart="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gallery"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ListView android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_list_hover"
+        />
+</LinearLayout>
