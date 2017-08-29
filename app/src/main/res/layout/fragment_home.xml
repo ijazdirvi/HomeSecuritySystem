@@ -43,6 +43,7 @@
             android:layout_centerHorizontal="true"
             android:background="@drawable/home_btn_hover"
             android:text="Configuration"
+            android:fontFamily="sans-serif-smallcaps"
             android:textColor="@color/white" />
 
 
